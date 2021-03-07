@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@mipmap/ic_nav_contacts"
+            android:title="@string/contacts" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@mipmap/ic_nav_offer"
+            android:title="@string/offeredRides" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@mipmap/ic_nav_request"
+            android:title="@string/requestedRides" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@mipmap/ic_nav_savedaddress"
+            android:title="@string/savedAddress" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@mipmap/ic_car"
+            android:title="@string/myVechicle" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@mipmap/ic_join_group02"
+            android:title="@string/myGroups" />
+    </group>
+
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@mipmap/ic_nav_rateus"
+                android:title="@string/rate_us" />
+            <item
+                android:id="@+id/nav_tnc"
+                android:icon="@mipmap/ic_nav_tc"
+                android:title="@string/terms_amp_conditions" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@mipmap/ic_nav_privacy"
+                android:title="@string/privacyPolicy" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@mipmap/ic_nav_faq"
+                android:title="@string/faq" />
+            <item
+                android:id="@+id/nav_whoarewe"
+                android:icon="@mipmap/ic_nav_whoarewe"
+                android:title="@string/who_are_we" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_nav_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

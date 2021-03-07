@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">RytRyde</string>
+    <string name="title_activity_onboarder">Onboarder</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array name="onboarder_title">
+        <item>Hey there! We don"'"t charge per ride!</item>
+        <item>The Alternative to On Demand</item>
+        <item>It Makes Sense</item>
+    </string-array>
+
+    <string-array name="onboarder_desc">
+        <item>With RytRyde you drive or ride with a friend.</item>
+        <item>We will try to match your journey with one of your trusted connections.</item>
+        <item>By matching your journey with that of a friend, our partnership helps the environment and you save by travelling together.</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Enter Email Address</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome to RytRyde!</string>
+    <string name="prompt_login">Login to continue to the app</string>
+    <string name="forgot_password">"Forgot Password"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="logging_in">Logging in</string>
+    <string name="authenticationFailed">Authentication Failed</string>
+    <string name="authenticationFailed_message">Either username or password is incorrect</string>
+    <string name="ok">OK</string>
+    <string name="ride">My Rides</string>
+    <string name="account">My Account</string>
+    <string name="content_description_search">My Rides</string>
+    <string name="content_description_more">My Account</string>
+    <string name="contacts">My Contacts</string>
+    <string name="offeredRides">Offered Rides</string>
+    <string name="requestedRides">Requested Rides</string>
+    <string name="savedAddress">Saved Address</string>
+    <string name="myGroups">My Groups</string>
+    <string name="about">About</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="faq">FAQ</string>
+    <string name="who_are_we">Who are we?</string>
+    <string name="logout">Logout</string>
+    <string name="myVechicle">My Vehicle</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+</resources>
