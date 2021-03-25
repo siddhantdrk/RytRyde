@@ -10,7 +10,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RytRyde">
-        <activity android:name=".ContactUsActivity"></activity>
+        <activity android:name=".MyPhonebookActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".FAQActivity" />
+        <activity android:name=".CompleteDetailsActivity" />
+        <activity android:name=".VerifyMobileActivity" />
+        <activity android:name=".AddVehicleDetailsActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".CreateGroupActivit" />
+        <activity android:name=".OTPActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".MyContact" />
+        <activity android:name=".MyGroup" />
+        <activity android:name=".MyVehicle" />
+        <activity android:name=".ContactUsActivity" />
         <activity android:name=".TermsAndConditions" />
         <activity android:name=".WhoWeAre" />
         <activity android:name=".PrivacyPolicy" />
@@ -20,7 +36,7 @@
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.RytRyde.NoActionBar" />
         <activity
-            android:name=".FAQActivity"
+            android:name=".GroupMemberListingActivity"
             android:label="@string/title_activity_onboarder"
             android:theme="@style/Theme.RytRyde.NoActionBar">
             <intent-filter>
@@ -29,7 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".SignInActivity" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 
