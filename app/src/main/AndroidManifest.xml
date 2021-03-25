@@ -11,9 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RytRyde">
         <activity android:name=".MyPhonebookActivity"></activity>
-        <activity android:name=".MainActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".FAQActivity" />
         <activity android:name=".CompleteDetailsActivity" />
         <activity android:name=".VerifyMobileActivity" />
         <activity android:name=".AddVehicleDetailsActivity" />
@@ -31,17 +29,12 @@
         <activity android:name=".WhoWeAre" />
         <activity android:name=".PrivacyPolicy" />
         <activity android:name=".OnboarderActivity" />
-        <activity android:name=".ContactUsActivity"></activity>
-        <activity android:name=".TermsAndConditions" />
-        <activity android:name=".WhoWeAre" />
-        <activity android:name=".PrivacyPolicy" />
-        <activity android:name=".OnboarderActivity" />
+        <activity android:name=".GroupMemberListingActivity" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.RytRyde.NoActionBar" />
         <activity
-            android:name=".GroupMemberListingActivity"
             android:name=".FAQActivity"
             android:label="@string/title_activity_onboarder"
             android:theme="@style/Theme.RytRyde.NoActionBar">
